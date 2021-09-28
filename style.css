@@ -7,6 +7,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -43,9 +48,12 @@ nav ul {
 
 footer {
   position: fixed;
+  bottom: 0;
   background-color: rgba(247, 193, 162, 0.7);
+  width: 100%;
 }
 
-.footer {
+.links {
   display: inline;
+  text-align: right;
 }
